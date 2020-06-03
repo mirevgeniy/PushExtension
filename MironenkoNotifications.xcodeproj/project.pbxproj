@@ -7,25 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1094BE2488386600C08D8C /* MironenkoNotifications.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD118A2487891B0069540C /* MironenkoNotifications.xcdatamodeld */; };
+		7A1094C1248838D900C08D8C /* MIRPush+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11B624878C930069540C /* MIRPush+CoreDataClass.swift */; };
+		7A1094C2248838D900C08D8C /* MIRPush+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11B824878CA40069540C /* MIRPush+CoreDataProperties.swift */; };
+		7A28B2492487BC7200FB6081 /* MIRPush+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11B624878C930069540C /* MIRPush+CoreDataClass.swift */; };
+		7A28B24A2487BC7200FB6081 /* MIRPush+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11B824878CA40069540C /* MIRPush+CoreDataProperties.swift */; };
+		7A7B22F12487A67700A228F7 /* PushesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B22EF2487A67700A228F7 /* PushesView.swift */; };
+		7A7B22F22487A67700A228F7 /* PushesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B22F02487A67700A228F7 /* PushesView.xib */; };
+		7A7B22F62487AECC00A228F7 /* EventsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B22F52487AECC00A228F7 /* EventsHandler.swift */; };
+		7A7B22FB2487B1B500A228F7 /* PushesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B22FA2487B1B500A228F7 /* PushesPresenter.swift */; };
+		7A7B22FD2487B21600A228F7 /* PushesViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B22FC2487B21600A228F7 /* PushesViewProtocol.swift */; };
 		7AAD11822487891B0069540C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11812487891B0069540C /* AppDelegate.swift */; };
 		7AAD11842487891B0069540C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11832487891B0069540C /* SceneDelegate.swift */; };
-		7AAD11862487891B0069540C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11852487891B0069540C /* ViewController.swift */; };
-		7AAD11892487891B0069540C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD11872487891B0069540C /* Main.storyboard */; };
-		7AAD118C2487891B0069540C /* MironenkoNotifications.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD118A2487891B0069540C /* MironenkoNotifications.xcdatamodeld */; };
 		7AAD118E248789200069540C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD118D248789200069540C /* Assets.xcassets */; };
-		7AAD1191248789200069540C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD118F248789200069540C /* LaunchScreen.storyboard */; };
+		7AAD119F248789560069540C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD119E248789560069540C /* NotificationService.swift */; };
+		7AAD11A3248789560069540C /* NotificationsExtantion.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7AAD119C248789560069540C /* NotificationsExtantion.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7AAD11BC24878E690069540C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11BB24878E690069540C /* Service.swift */; };
+		7AAD11BE24878E9B0069540C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11BD24878E9B0069540C /* CoreDataManager.swift */; };
+		7AAD11C22487AFE70069540C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11BD24878E9B0069540C /* CoreDataManager.swift */; };
+		7AAD11C92487B4D90069540C /* MironenkoNotifications.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 7AAD118A2487891B0069540C /* MironenkoNotifications.xcdatamodeld */; };
+		7AAD11CC2487B7C00069540C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD11BB24878E690069540C /* Service.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7AAD11A1248789560069540C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AAD11762487891B0069540C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AAD119B248789560069540C;
+			remoteInfo = NotificationsExtantion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AAD11A7248789560069540C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7AAD11A3248789560069540C /* NotificationsExtantion.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7A7B22EF2487A67700A228F7 /* PushesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushesView.swift; sourceTree = "<group>"; };
+		7A7B22F02487A67700A228F7 /* PushesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushesView.xib; sourceTree = "<group>"; };
+		7A7B22F52487AECC00A228F7 /* EventsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsHandler.swift; sourceTree = "<group>"; };
+		7A7B22FA2487B1B500A228F7 /* PushesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushesPresenter.swift; sourceTree = "<group>"; };
+		7A7B22FC2487B21600A228F7 /* PushesViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushesViewProtocol.swift; sourceTree = "<group>"; };
 		7AAD117E2487891B0069540C /* MironenkoNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MironenkoNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AAD11812487891B0069540C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AAD11832487891B0069540C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AAD11852487891B0069540C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AAD11882487891B0069540C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AAD118B2487891B0069540C /* MironenkoNotifications.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MironenkoNotifications.xcdatamodel; sourceTree = "<group>"; };
 		7AAD118D248789200069540C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AAD1190248789200069540C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AAD1192248789200069540C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAD119C248789560069540C /* NotificationsExtantion.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationsExtantion.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAD119E248789560069540C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7AAD11A0248789560069540C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAD11A8248789640069540C /* MironenkoNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MironenkoNotifications.entitlements; sourceTree = "<group>"; };
+		7AAD11A9248789710069540C /* NotificationsExtantion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationsExtantion.entitlements; sourceTree = "<group>"; };
+		7AAD11B624878C930069540C /* MIRPush+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MIRPush+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7AAD11B824878CA40069540C /* MIRPush+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MIRPush+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AAD11BB24878E690069540C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7AAD11BD24878E9B0069540C /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,13 +85,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AAD1199248789560069540C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7B22F72487B16F00A228F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B22FC2487B21600A228F7 /* PushesViewProtocol.swift */,
+				7A7B22EF2487A67700A228F7 /* PushesView.swift */,
+				7A7B22F02487A67700A228F7 /* PushesView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A7B22F82487B17600A228F7 /* PushesView */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B22F92487B19700A228F7 /* Presenter */,
+				7A7B22F72487B16F00A228F7 /* View */,
+			);
+			path = PushesView;
+			sourceTree = "<group>";
+		};
+		7A7B22F92487B19700A228F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B22FA2487B1B500A228F7 /* PushesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		7AAD11752487891B0069540C = {
 			isa = PBXGroup;
 			children = (
 				7AAD11802487891B0069540C /* MironenkoNotifications */,
+				7AAD119D248789560069540C /* NotificationsExtantion */,
 				7AAD117F2487891B0069540C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				7AAD117E2487891B0069540C /* MironenkoNotifications.app */,
+				7AAD119C248789560069540C /* NotificationsExtantion.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,16 +143,71 @@
 		7AAD11802487891B0069540C /* MironenkoNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				7AAD11A8248789640069540C /* MironenkoNotifications.entitlements */,
+				7AAD118A2487891B0069540C /* MironenkoNotifications.xcdatamodeld */,
+				7AAD118D248789200069540C /* Assets.xcassets */,
+				7AAD11AB248789BC0069540C /* Domain */,
+				7AAD11AA248789B40069540C /* UI */,
 				7AAD11812487891B0069540C /* AppDelegate.swift */,
 				7AAD11832487891B0069540C /* SceneDelegate.swift */,
-				7AAD11852487891B0069540C /* ViewController.swift */,
-				7AAD11872487891B0069540C /* Main.storyboard */,
-				7AAD118D248789200069540C /* Assets.xcassets */,
-				7AAD118F248789200069540C /* LaunchScreen.storyboard */,
 				7AAD1192248789200069540C /* Info.plist */,
-				7AAD118A2487891B0069540C /* MironenkoNotifications.xcdatamodeld */,
+				7AAD118F248789200069540C /* LaunchScreen.storyboard */,
 			);
 			path = MironenkoNotifications;
+			sourceTree = "<group>";
+		};
+		7AAD119D248789560069540C /* NotificationsExtantion */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD11A9248789710069540C /* NotificationsExtantion.entitlements */,
+				7AAD119E248789560069540C /* NotificationService.swift */,
+				7AAD11A0248789560069540C /* Info.plist */,
+			);
+			path = NotificationsExtantion;
+			sourceTree = "<group>";
+		};
+		7AAD11AA248789B40069540C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B22F82487B17600A228F7 /* PushesView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7AAD11AB248789BC0069540C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD11AD248789DA0069540C /* Database */,
+				7AAD11AC248789D20069540C /* Service */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7AAD11AC248789D20069540C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD11AE248789E50069540C /* Entities */,
+				7AAD11BB24878E690069540C /* Service.swift */,
+				7A7B22F52487AECC00A228F7 /* EventsHandler.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7AAD11AD248789DA0069540C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD11BD24878E9B0069540C /* CoreDataManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7AAD11AE248789E50069540C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD11B624878C930069540C /* MIRPush+CoreDataClass.swift */,
+				7AAD11B824878CA40069540C /* MIRPush+CoreDataProperties.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,15 +220,34 @@
 				7AAD117A2487891B0069540C /* Sources */,
 				7AAD117B2487891B0069540C /* Frameworks */,
 				7AAD117C2487891B0069540C /* Resources */,
+				7AAD11A7248789560069540C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7AAD11A2248789560069540C /* PBXTargetDependency */,
 			);
 			name = MironenkoNotifications;
 			productName = MironenkoNotifications;
 			productReference = 7AAD117E2487891B0069540C /* MironenkoNotifications.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7AAD119B248789560069540C /* NotificationsExtantion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AAD11A4248789560069540C /* Build configuration list for PBXNativeTarget "NotificationsExtantion" */;
+			buildPhases = (
+				7AAD1198248789560069540C /* Sources */,
+				7AAD1199248789560069540C /* Frameworks */,
+				7AAD119A248789560069540C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationsExtantion;
+			productName = NotificationsExtantion;
+			productReference = 7AAD119C248789560069540C /* NotificationsExtantion.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +260,9 @@
 				ORGANIZATIONNAME = "Mironenko Evgeniy";
 				TargetAttributes = {
 					7AAD117D2487891B0069540C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7AAD119B248789560069540C = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -119,6 +281,7 @@
 			projectRoot = "";
 			targets = (
 				7AAD117D2487891B0069540C /* MironenkoNotifications */,
+				7AAD119B248789560069540C /* NotificationsExtantion */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAD1191248789200069540C /* LaunchScreen.storyboard in Resources */,
+				7A7B22F22487A67700A228F7 /* PushesView.xib in Resources */,
+				7AAD11C92487B4D90069540C /* MironenkoNotifications.xcdatamodeld in Resources */,
 				7AAD118E248789200069540C /* Assets.xcassets in Resources */,
-				7AAD11892487891B0069540C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAD119A248789560069540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1094BE2488386600C08D8C /* MironenkoNotifications.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +312,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAD11862487891B0069540C /* ViewController.swift in Sources */,
+				7A28B2492487BC7200FB6081 /* MIRPush+CoreDataClass.swift in Sources */,
+				7A28B24A2487BC7200FB6081 /* MIRPush+CoreDataProperties.swift in Sources */,
+				7A7B22FD2487B21600A228F7 /* PushesViewProtocol.swift in Sources */,
 				7AAD11822487891B0069540C /* AppDelegate.swift in Sources */,
 				7AAD11842487891B0069540C /* SceneDelegate.swift in Sources */,
-				7AAD118C2487891B0069540C /* MironenkoNotifications.xcdatamodeld in Sources */,
+				7A7B22F62487AECC00A228F7 /* EventsHandler.swift in Sources */,
+				7AAD11BE24878E9B0069540C /* CoreDataManager.swift in Sources */,
+				7AAD11BC24878E690069540C /* Service.swift in Sources */,
+				7A7B22FB2487B1B500A228F7 /* PushesPresenter.swift in Sources */,
+				7A7B22F12487A67700A228F7 /* PushesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AAD1198248789560069540C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1094C1248838D900C08D8C /* MIRPush+CoreDataClass.swift in Sources */,
+				7A1094C2248838D900C08D8C /* MIRPush+CoreDataProperties.swift in Sources */,
+				7AAD119F248789560069540C /* NotificationService.swift in Sources */,
+				7AAD11CC2487B7C00069540C /* Service.swift in Sources */,
+				7AAD11C22487AFE70069540C /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7AAD11872487891B0069540C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AAD11882487891B0069540C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		7AAD11A2248789560069540C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AAD119B248789560069540C /* NotificationsExtantion */;
+			targetProxy = 7AAD11A1248789560069540C /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		7AAD118F248789200069540C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,8 +391,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N2WFFL4C24;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -220,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,8 +453,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N2WFFL4C24;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -274,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,16 +480,19 @@
 		7AAD1196248789200069540C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY8EDAZ87F;
+				CODE_SIGN_ENTITLEMENTS = MironenkoNotifications/MironenkoNotifications.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N2WFFL4C24;
 				INFOPLIST_FILE = MironenkoNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shazzle.mironenko.test.MironenkoNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mironenko.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,16 +501,61 @@
 		7AAD1197248789200069540C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY8EDAZ87F;
+				CODE_SIGN_ENTITLEMENTS = MironenkoNotifications/MironenkoNotifications.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N2WFFL4C24;
 				INFOPLIST_FILE = MironenkoNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shazzle.mironenko.test.MironenkoNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mironenko.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AAD11A5248789560069540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationsExtantion/NotificationsExtantion.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N2WFFL4C24;
+				INFOPLIST_FILE = NotificationsExtantion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mironenko.test.NotificationsExtantion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AAD11A6248789560069540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationsExtantion/NotificationsExtantion.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N2WFFL4C24;
+				INFOPLIST_FILE = NotificationsExtantion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mironenko.test.NotificationsExtantion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +578,15 @@
 			buildConfigurations = (
 				7AAD1196248789200069540C /* Debug */,
 				7AAD1197248789200069540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AAD11A4248789560069540C /* Build configuration list for PBXNativeTarget "NotificationsExtantion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAD11A5248789560069540C /* Debug */,
+				7AAD11A6248789560069540C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
